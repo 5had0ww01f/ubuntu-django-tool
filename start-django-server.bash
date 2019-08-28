@@ -314,7 +314,7 @@ elif [ ${function} == "2" ]; then
     read -e -p "建議手動備份db.sqlite3一下！" -i "Y" xxx
 
     # git information
-    read -e -p "Github clone 的 link: " -i "https://github.com/K0D1NGL10N/cougar-site.git" gitlink
+    read -e -p "Github clone 的 link: " -i "https://github.com/***/***.git" gitlink
     read -e -p "要抓的branch名稱：" -i "master" branchname
     gitname=$(echo $gitlink | rev | cut -d"/" -f 1 | rev)
     gitfoldername=$(echo $gitname | cut -d"." -f 1)
