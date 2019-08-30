@@ -62,7 +62,7 @@ if [ ${function} == "1" ]
 then
     read -e -p "Domain name without subdomain: " -i "example.com" domain
     read -e -p "Subdomain of this server(i.e. blog): " -i "www" subdomain
-    read -e -p "Add blank subdomain support? (Y/n): " -i "Y" blanksupport
+    read -e -p "要把沒有subdomain的流量導引到這個嗎? (Y/n): " -i "Y" blanksupport
     read -e -p "Username you want to create: " -i "" username
     read -e -p "User group: " -i "webapps" usergroup
     read -e -p "New project name (空白則繼續設定git path): " -i "" projectname
